@@ -18,6 +18,6 @@ require __DIR__.'/caseType.php';
 require __DIR__.'/purposeOfVisit.php';
 
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+Route::get('/user', function (Request $request) {
     return $request->user();
 });

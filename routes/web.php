@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/cases', function () {
+    dd("sssssssssssssssssssssssssssssssssddd");
     return view('welcome');
 });
